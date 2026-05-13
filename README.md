@@ -179,34 +179,6 @@ Super-Resolution-CS360-AI-Final-Project/
 
 ---
 
-## 🚢 Deployment
-
-### Option 1: Gradio Share (Quick Demo)
-```python
-# In bestapp.py, change:
-demo.launch(share=True)  # Creates 72-hour public link
-```
-
-### Option 2: Hugging Face Spaces (Recommended)
-1. Create account on [huggingface.co](https://huggingface.co)
-2. Go to Spaces → Create new Space
-3. Select Gradio SDK
-4. Upload files from this repository
-5. Auto-deploys on push
-
-**Advantages:** Free, persistent URL, easy updates, GPU options
-
-### Option 3: Docker + Cloud
-```bash
-# Build Docker image
-docker build -t artupscale .
-
-# Push to cloud (AWS, GCP, Azure, etc.)
-docker push your-registry/artupscale
-```
-
----
-
 ## 📈 Results & Benchmarks
 
 ### Performance (CPU - MacBook Air M2)
@@ -277,4 +249,4 @@ For questions or issues, please contact the team leads:
 
 ---
 
-**Made with ❤️ for CS360 @ RGIPT**
+**Made with hate for CS360 @ RGIPT**
